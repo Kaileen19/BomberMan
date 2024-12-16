@@ -1,52 +1,48 @@
-# Bomberman DOM
+# Bomberman DOM 💥🚀
 
-Welcome to our **Bomberman DOM**, a thrilling multiplayer game where strategy, skill, and quick thinking lead to victory!
+Welcome to **Bomberman DOM**! A fast-paced multiplayer game where strategy, skill, and quick thinking lead to victory! 🏆
 
-## How to Run
+## How to Play 🎮
 
-1.Navigate to the backend folder in the project root.
+1. Go to the **backend folder** and start the server:
+   <pre><code>go run .</code></pre>
 
-2.Start the backend server by running:
+2. In a new terminal, navigate to the **frontend** directory:
+   <pre><code>cd frontend</code></pre>
 
-`go run .`
+3. Install the necessary modules:
+   <pre><code>npm install</code></pre>
 
-3.In new terminal navigate to frontend directory
+4. Start the dev server:
+   <pre><code>npm run dev</code></pre>
 
-4.Install node modules:
+5. Open the provided link (usually: `localhost:5173`), choose your nickname, and start playing! 🎉
 
-`npm install`
+## Features 🌟
 
-5.Run dev server:
+- 🧑‍🤝‍🧑 **Player Nickname**: Pick your name before entering the game.
+- ⏳ **Lobby System**: Wait in the lobby with live player count.
+- 💬 **Real-Time Chat**: Chat with other players using WebSocket.
+- ⏰ **Countdown Timer**: Game starts after 20 seconds or when enough players join.
 
-`npm run dev`
+## Tech Stack ⚙️
 
-6.Go to link shown in terminal (usually: `localhost:5173`), enter your nickname and start playing!
+- Custom mini-framework
+- WebSocket for real-time updates
+- DOM-based rendering (no canvas or WebGL!)
 
-## Core GamePlay
+## Audit 📊
 
-- **Player Nickname**: Players are prompted for a nickname before entering the game.
-- **Lobby System**: Join a waiting room with a live player counter.
-- **Real-Time Chat**: Chat with other players in the lobby through WebSocket technology.
-- **Countdown Timer**: Once enough players join or after 20 seconds, a countdown starts before the game begins.
+- [Audit Report] (provide link to your audit report if needed)
 
-## Functional Overview
+## Authors ✨
 
-- **Framework**: The game is built using a custom mini-framework.
-- **WebSocket Communication** : Enables real-time updates for player movement, chat, and game state.
-- **DOM-Based Rendering**: All interactions are managed without external rendering technologies like Canvas or WebGL.
+- cpiisner
+- mmatiklj
+- pnoorkoi
+- mtali
+- kumal
 
-## Audit
+## Special Thanks 🙌
 
-- **Audit**: [Audit Report](https://github.com/01-edu/public/tree/master/subjects/bomberman-dom/audit)
-
-## Authors
-
-- **cpiisner** - `https://01.kood.tech/git/cpiisner/bomberman-dom`
-- **mmatiklj** - `https://01.kood.tech/git/mmatiklj`
-- **pnoorkoi** - `https://01.kood.tech/git/pnoorkoi`
-- **mtali** - `https://01.kood.tech/git/mtali`
-- **kumal** - `https://01.kood.tech/git/kumal`
-
-## Big Thanks 🎉
-
-A huge round of applause goes to **ureinkub** and **kelmik** —without their incredible efforts, this project would not have been possible. Your contributions were invaluable!
+A huge thanks to **ureinkub** and **kelmik**—this game wouldn't have been possible without you! 🙏
